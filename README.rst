@@ -7,7 +7,8 @@ This is a flask application built using flask platform. This application prints 
 
 Instructions to use the application
 
-Please execute the run.py file present in src folder using python. This will produce a URL(http://0.0.0.0:5000). Copy and paste the URL in a web browser to view the platform details of the machine. 
+Install the systeminfo package from https://github.com/Manjunathsk92/systeminfo.git using command pip install git+https://github.com/Manjunathsk92/systeminfo.git
+Please execute the run.py file present in src folder of flask application using python. This will produce a URL(http://0.0.0.0:5000). Copy and paste the URL in a web browser to view the platform details of the machine. 
 
 Note
 ====
