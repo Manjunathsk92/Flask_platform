@@ -3,14 +3,11 @@ flask_platform
 ==============
 
 
-Add a short description here!
+This is a flask application built using flask platform. This application prints the platform details of the machine it runs on. It prints the details on the web browser. 
 
+Instructions to use the application
 
-Description
-===========
-
-A longer description of your project goes here...
-
+Please execute the run.py file present in src folder using python. This will produce a URL(http://0.0.0.0:5000). Copy and paste the URL in a web browser to view the platform details of the machine. 
 
 Note
 ====

@@ -1,9 +1,9 @@
 from flask import render_template
 from flask_platform import flask_platform
-import systeminfo
+from systeminfo import main as m
 
 @flask_platform.route('/')
 def index():
         returnDict = {}
-        returnDict['platform'] = systeminfo.main()
+        returnDict['platform'] = m.main()
         return render_template("index.html", **returnDict)
